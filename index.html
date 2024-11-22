@@ -4,10 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        .buttons {
+            margin: 20px 0;
+        }
+        .buttons button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 0 10px;
+        }
+        .results {
+            margin-top: 30px;
+        }
+    </style>
 </head>
 <body>
+    <h1>Rock, Paper, Scissors</h1>
+    <div class="buttons">
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+    </div>
+    <div class="results">
+        <p id="result">Make your choice!</p>
+        <p id="score">Human: 0 - Computer: 0</p>
+    </div>
     <script src="javascript.js"></script>
-<!--     <button> getComputerChoice()</button>
- -->    
 </body>
 </html>
