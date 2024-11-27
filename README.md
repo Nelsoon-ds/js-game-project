@@ -1,4 +1,4 @@
-# js-game-project
+## Rock Paper Scissors
 A short Rock Paper Scissors game to work with some vanilla JS.
 
 Game is played through buttons and can be tried here:
